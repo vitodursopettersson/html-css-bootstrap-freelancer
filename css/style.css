@@ -5,6 +5,7 @@ Core
 */
 
 @import url(_partials/variables.css);
+@import url(_partials/star-divider.css);
 
 /* 
 **************
@@ -15,6 +16,8 @@ Header
 header {
     background-color: var(--vdu-secondary-700);
 }
+
+
 
 /* 
 **************

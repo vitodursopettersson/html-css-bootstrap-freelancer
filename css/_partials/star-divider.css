@@ -1,0 +1,21 @@
+.vdu-star-divider {
+    font-size: 2rem;
+}
+
+.vdu-star-divider::before {
+    content: '';
+    display: inline-block;
+    border: 2px solid;
+    width: 14%;
+    vertical-align: middle;
+    border-radius: 20px;
+}
+
+.vdu-star-divider::after {
+    content: '';
+    display: inline-block;
+    border: 2px solid;
+    width: 14%;
+    vertical-align: middle;
+    border-radius: 20px;
+}
