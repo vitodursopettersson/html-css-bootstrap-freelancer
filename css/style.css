@@ -33,11 +33,6 @@ Main
 
 /* Portfolio */
 
-#portfolio>div>div>div>* {
-    background-color: var(--vdu-primary-500);
-    padding: 150px;
-}
-
 /* About */
 
 #about {
