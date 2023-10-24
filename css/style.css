@@ -34,3 +34,9 @@ Main
     background-color: var(--vdu-primary-500);
     padding: 150px;
 }
+
+/* About */
+
+#about {
+    background-color: var(--vdu-primary-500);
+}
