@@ -15,3 +15,15 @@ Header
 header {
     background-color: var(--vdu-secondary-700);
 }
+
+/* 
+**************
+Main
+**************
+*/
+
+/* Above */
+
+#above {
+    background-color: var(--vdu-primary-500);
+}
