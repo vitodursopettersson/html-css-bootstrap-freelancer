@@ -1,9 +1,17 @@
 /* 
-+++++++++++++
-Debug
-+++++++++++++
+**************
+Core
+**************
+*/
+
+@import url(_partials/variables.css);
+
+/* 
+**************
+Header
+**************
 */
 
 header {
-    background-color: #2C3E50;
+    background-color: var(--vdu-secondary-700);
 }
