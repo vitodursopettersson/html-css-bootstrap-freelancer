@@ -162,6 +162,11 @@
                 <!-- Titolo -->
                 <h2 class="text-uppercase">About</h2>
 
+                <!-- Divisore -->
+                <div class="vdu-star-divider mb-3">
+                    <i class=" fa-solid fa-star"></i>
+                </div>
+
                 <!-- Gruppo Colonne -->
                 <div class="row  justify-content-center text-start mt-3">
 
@@ -204,26 +209,47 @@
                     <div class="col-8">
 
                         <!-- Titolo -->
-                        <h2>Contact me</h2>
+                        <h2 class="text-uppercase">Contact me</h2>
+
+                        <!-- Divisore -->
+                        <div class="vdu-star-divider mb-3">
+                            <i class=" fa-solid fa-star"></i>
+                        </div>
 
                         <!-- Form -->
                         <form class="text-start">
-                            <div class="mb-3">
-                                <label for="exampleInputEmail1" class="form-label">Email address</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1"
-                                    aria-describedby="emailHelp">
-                                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.
-                                </div>
+
+                            <!-- Input -->
+                            <div class="form-floating mb-3">
+                                <input type="name" class="form-control border-0 border-bottom rounded-0"
+                                    id="floatingInput" placeholder="Name">
+                                <label for="floatingInput">Name</label>
                             </div>
-                            <div class="mb-3">
-                                <label for="exampleInputPassword1" class="form-label">Password</label>
-                                <input type="password" class="form-control" id="exampleInputPassword1">
+
+                            <!-- Input -->
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control border-0 border-bottom rounded-0"
+                                    id="floatingInput" placeholder="Email adress">
+                                <label for="floatingInput">Email address</label>
                             </div>
-                            <div class="mb-3 form-check">
-                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+
+                            <!-- Input -->
+                            <div class="form-floating">
+                                <input type="tel" class="form-control border-0 border-bottom rounded-0"
+                                    id="floatingPassword" placeholder="Phone Number">
+                                <label for="floatingPassword">Phone Number</label>
                             </div>
-                            <button type="submit" class="btn btn-primary">Submit</button>
+
+                            <!-- Text Area -->
+                            <div class="form-floating">
+                                <textarea class="form-control border-0 border-bottom rounded-0" placeholder="Message"
+                                    id="floatingTextarea2" style="height: 200px"></textarea>
+                                <label for="floatingTextarea2">Message</label>
+                            </div>
+
+                            <!-- Submit -->
+                            <button type="submit" class="btn btn-primary mt-4">Send</button>
+
                         </form>
 
                     </div>
