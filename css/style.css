@@ -40,3 +40,21 @@ Main
 #about {
     background-color: var(--vdu-primary-500);
 }
+
+/* 
+**************
+Footer
+**************
+*/
+
+/* Footer Top */
+
+#footer--top {
+    background-color: var(--vdu-secondary-500);
+}
+
+/* Footer Bottom */
+
+#footer--bottom {
+    background-color: var(--vdu-secondary-700);
+}
