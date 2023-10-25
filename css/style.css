@@ -5,8 +5,8 @@ Core
 */
 
 @import url(_partials/variables.css);
-@import url(_partials/star-divider.css);
-@import url(_partials/social-icon.css);
+@import url(/components/social-icon.css);
+@import url(/components/star-divider.css);
 
 /* 
 **************
